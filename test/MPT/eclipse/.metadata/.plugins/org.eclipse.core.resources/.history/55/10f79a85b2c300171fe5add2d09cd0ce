@@ -1,0 +1,66 @@
+package com.java.dto;
+
+import java.util.List;
+
+import javax.xml.bind.annotation.XmlRootElement;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+@XmlRootElement
+public class Student {
+
+	private static int id;
+	public Student( String name, String phNo, String address,
+			List<Course> courses) {
+		super();
+		id++;
+		this.name = name;
+		this.phNo = phNo;
+		this.address = address;
+		this.courses = courses;
+	}
+	private String name;
+	private String phNo;
+	private String address;
+	private List<Course> courses;
+	private float totalFees;
+	private float dueAmount;
+	public int getId() {
+		return id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getPhNo() {
+		return phNo;
+	}
+	public void setPhNo(String phNo) {
+		this.phNo = phNo;
+	}
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	public List<Course> getCourses() {
+		return courses;
+	}
+	public void setCourses(List<Course> courses) {
+		this.courses = courses;
+	}
+	public float getTotalFees() {
+		return totalFees;
+	}
+	public void setTotalFees(float totalFees) {
+		this.totalFees = totalFees;
+	}
+	public float getDueAmount() {
+		return dueAmount;
+	}
+	public void setDueAmount(float dueAmount) {
+		this.dueAmount = dueAmount;
+	}
+}

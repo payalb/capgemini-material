@@ -1,0 +1,18 @@
+2,3 : jsp: 2a classroom
+4: pmd, maven: 2a
+sat: test : c and data structure test :system batch:1d
+8,9 : jpa+ hibernate: 2a
+10: intro to webservices: 2a
+17,18,21,22: servlet3.0: 1b
+23,24,28: programming fundamental, pseudocode: 2e
+25th: holiday
+26: test: system batch:1d
+29,30,31: oracle basics: 2e
+-----------------------aug-------------------------
+
+9 to 6 pm 
+9 to 9:15: quiz
+10:30: 10:45:break
+3:30 to 3:45: break
+faq at end of session
+

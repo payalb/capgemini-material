@@ -1,0 +1,7 @@
+package com.java.dto;
+
+public class Course {
+
+	private String name;
+	private Clob details;
+}

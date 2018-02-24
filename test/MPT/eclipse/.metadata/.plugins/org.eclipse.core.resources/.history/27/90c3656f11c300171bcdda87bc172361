@@ -1,0 +1,6 @@
+package com.java.controller;
+
+@RestController
+public class StudentController {
+
+}

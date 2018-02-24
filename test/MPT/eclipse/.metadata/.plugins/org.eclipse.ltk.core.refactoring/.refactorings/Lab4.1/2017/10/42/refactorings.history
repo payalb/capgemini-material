@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.java.cg.lab4&apos; to &apos;com.java.cg.lab4.dto&apos;&#x0D;&#x0A;- Original project: &apos;Lab4.1&apos;&#x0D;&#x0A;- Original element: &apos;Lab4.1/src/com.java.cg.lab4&apos;&#x0D;&#x0A;- Renamed element: &apos;Lab4.1/src/com.java.cg.lab4.dto&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.java.cg.lab4&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.java.cg.lab4" name="com.java.cg.lab4.dto" qualified="false" references="true" stamp="1508136096913" textual="false" version="1.0"/>
+</session>

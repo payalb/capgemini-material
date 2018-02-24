@@ -1,0 +1,9 @@
+package com.java.dto;
+
+public class Course {
+
+	private String name;
+	private String syllabus;
+	private float fees;
+	private int duration
+}
